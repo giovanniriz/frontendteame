@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.ReactModal__Content {
+  width: 350px;
+  height: 450px;
+  margin: 200px 785px;
+  background-color: rgb(44, 44, 44);
+  z-index: 100;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 5px grey;
+  color: #ffffff;
+}
+
+.contentLogin {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.logoSignin {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid yellow; */
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail input {
+  text-align: center;
+}
+
+/* .inputLogin {
+  border: 2px solid red;
+} */
+
+.triangleModal {
+  width: 50px;
+  height: 50px;
+}
+.titleModal {
+  color: #7ba842;
+}
+
+.form input {
+  background: rgb(80, 80, 80);
+  border-radius: 3px;
+  border: none;
+  border-color: transparent;
+  width: 250px;
+  line-height: 30px;
+  border: 2px solid #7ba842;
+  border-radius: 5px;
+}
+
+.textBottom {
+  /* text-align: center; */
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.usernameTitle {
+  font-family: roboto;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.form button {
+  background: #7ba842;
+  border-radius: 3px;
+  border: none;
+  border-color: transparent;
+  width: 250px;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
+}
+
+/* ====================================================
+.headerKanan {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searchbar {
+  margin-left: 300px;
+  height: 10px;
+  width: 200px;
+  font-size: 13px;
+  padding: 10px;
+  border: 2px solid #7ba842;
+  border-radius: 5px;
+}
+
+.searchbar::placeholder {
+  color: #C4C4C4;
+}
+
+.pp {
+  margin-left: 40px;
+  clip-path: circle(40%);
+  width: 60px;
+  height: 60px;
+}
+==================================================== */
+
+header {
+  position: fixed;
+  margin: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 250px;
+  /* flex-direction: row; */
+}
+
+.triangle_right {
+  width: 70px;
+  margin: 0;
+}
+
+.logoText {
+  font-size: 38px;
+  font-weight: 700;
+  font-family: roboto;
+  color: #7ba842;
+  margin: 0 0 0 10px;
+}
+
+.headerKanan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 250px;
+}
+
+.searchbar {
+  margin-left: 300px;
+  height: 40px;
+  width: 250px;
+  font-size: 16px;
+  padding: 10px;
+  color: #b8b8b8;
+  border: 2px solid #7ba842;
+  border-radius: 5px;
+  background-color: rgb(80, 80, 80);
+}
+
+.searchbar:focus {
+  border: 2px solid #7ba842;
+  /* box-shadow: 0 0 3px #1670BE; */
+  outline-offset: 0px;
+  outline: none;
+}
+
+.searchbar::placeholder {
+  color: #c4c4c4;
+}
+
+.signinText {
+  font-size: 28px;
+  font-family: roboto;
+  color: #7ba842;
+  padding: 34px 40px;
+  margin: 0 0 0 25px;
+  font-weight: 500;
+}
+
+.signinText:hover {
+  background: #7ba842;
+  color: rgb(44, 44, 44);
+  cursor: pointer;
+}
+
+.regisModal {
+  width: 350px;
+  height: 525px;
+  margin: 200px 785px;
+  background-color: rgb(44, 44, 44);
+  z-index: 100;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 5px grey;
+  color: #ffffff;
+}

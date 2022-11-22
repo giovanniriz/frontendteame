@@ -1,0 +1,7 @@
+.characters-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 5rem;
+  padding-right: 2rem;
+}
